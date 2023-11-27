@@ -1,0 +1,13 @@
+#cloud-config
+# users:
+#   - name: sps
+#     gecos: Your Name
+#     lock-passwd: false
+#     passwd: @prilF00lsplit001  # Replace with the password hash
+#     sudo: ALL=(ALL) NOPASSWD:ALL
+#     groups: users, adm
+#     shell: /bin/bash
+
+#!/bin/bash
+
+touch cloud-init.txt
